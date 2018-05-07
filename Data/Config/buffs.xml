@@ -136,6 +136,12 @@ built-in buff variables:
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
 
+<buff id="heavybleeding" duration="0" type="bleeding" actions="debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,10,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+	<modify id="0" stat="stamina" amount="-1" rate="1"/>
+	<modify id="1" stat="health" amount="-1" rate="3"/>
+</buff>
+
+
 <buff id="trapDamage1Trigger" duration="1" type="bleeding" actions="setvar(CTRtrapDmg1, 3);debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge)" /> <!-- spikes and other traps -->
 <buff id="trapDamage1Effect" buffif="CTRtrapDmg1 greater 0" debuffif="CTRtrapDmg1 less 1" duration="0" type="bleeding" actions="increment(CTRtrapDmg1, -1, 1, 0, 0)"
 	name_key="trapDamage1EffectName" description_key="trapDamage1EffectDesc" tooltip_key="trapDamage1EffectTooltip" icon="ui_game_symbol_critical" >

@@ -113,8 +113,8 @@ Mesh files no longer used:
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Stamina_usage" value="6.5"/>
 		<property name="Delay" value="1.15"/>
-		<property name="Buff" value="bleeding,criticalBlunt"/>
-		<property name="Buff_chance" value="0.3,0.3"/>
+		<property name="Buff" value="bleeding,heavybleeding,criticalBlunt"/>
+		<property name="Buff_chance" value="0.3,0.09,0.3"/>
 		<property name="DamageBonus.head" value="5"/>
 	</property>
 	<property class="Attributes">
@@ -136,8 +136,8 @@ Mesh files no longer used:
 	<property name="SellableToTrader" value="true"/>
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Stamina_usage" value="8.5"/>
-		<property name="Buff" value="bleeding,criticalBlunt"/>
-		<property name="Buff_chance" value="0.5,0.4"/>
+		<property name="Buff" value="bleeding,heavybleeding,criticalBlunt"/>
+		<property name="Buff_chance" value="0.5,0.13,0.4"/>
 		<property name="DamageBonus.head" value="6"/>
 	</property>
 	<property class="Attributes">
@@ -1301,8 +1301,8 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="DamageEntity" value="8"/>
 		<property name="DamageBlock" value="50"/>
-		<property name="Buff" value="bleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.3,0.2,0.5"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
+		<property name="Buff_chance" value="0.3,0.09,0.2,0.5"/>
 	</property>
 </item>
 
@@ -1338,8 +1338,8 @@ Mesh files no longer used:
 		<property name="Range" value="1.8"/>
 		<property name="DamageEntity" value="14"/>
 		<property name="DamageBlock" value="800"/>
-		<property name="Buff" value="bleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.4,0.2,0.1"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
+		<property name="Buff_chance" value="0.4,0.1,0.2,0.1"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Vomit"/>
@@ -1391,8 +1391,8 @@ Mesh files no longer used:
 		<property name="Delay" value="0.7"/>
 		<property name="DamageEntity" value="12"/>
 		<property name="DamageBlock" value="40"/>
-		<property name="Buff" value="bleeding,infection"/>
-		<property name="Buff_chance" value="0.8,0.4"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection"/>
+		<property name="Buff_chance" value="0.8,0.2,0.4"/>
 		<property name="DamageBonus.earth" value="6"/>
 	</property>
 </item>
@@ -1403,7 +1403,7 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="DamageEntity" value="14"/>
 		<property name="DamageBlock" value="200"/>
-		<property name="Buff" value="bleeding,infection,stunned"/>
+		<property name="Buff" value="heavybleeding,infection,stunned"/>
 		<property name="Buff_chance" value="0.2,0.2,0.4"/>
 	</property>
 </item>
@@ -1418,7 +1418,7 @@ Mesh files no longer used:
 		<property name="Sphere" value="0.4"/>
 		<property name="DamageEntity" value="18"/>
 		<property name="DamageBlock" value="100"/>
-		<property name="Buff" value="bleeding,stunned"/>
+		<property name="Buff" value="heavybleeding,stunned"/>
 		<property name="Buff_chance" value="0.2,0.3"/>
 	</property>
 </item>
@@ -1430,7 +1430,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.75"/>
 		<property name="DamageEntity" value="24"/>
 		<property name="DamageBlock" value="300"/>
-		<property name="Buff" value="bleeding,stunned,infection"/>
+		<property name="Buff" value="heavybleeding,stunned,infection"/>
 		<property name="Buff_chance" value="0.3,0.4,0.4"/>
 	</property>
 </item>
@@ -1440,8 +1440,8 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Buff" value="bleeding,infection1,stunned"/>
-		<property name="Buff_chance" value="0.04,0.3,0.5"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection1,stunned"/>
+		<property name="Buff_chance" value="0.04,0.01,0.3,0.5"/>
 	</property>
 </item>
 
@@ -1461,8 +1461,8 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="Buff" value="bleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.04,0.04,0.6"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
+		<property name="Buff_chance" value="0.04,0.01,0.04,0.6"/>
 	</property>
 </item>
 
@@ -1471,8 +1471,8 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="bleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.02,0.2,0.1"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
+		<property name="Buff_chance" value="0.02,0.005,0.2,0.1"/>
 	</property>
 </item>
 
@@ -1623,8 +1623,8 @@ Mesh files no longer used:
 		<property name="Delay" value="0.7"/>
 		<property name="DamageEntity" value="10"/>
 		<property name="DamageBlock" value="80"/>
-		<property name="Buff" value="bleeding,infection"/>
-		<property name="Buff_chance" value="0.3,0.4"/>
+		<property name="Buff" value="bleeding,heavybleeding,infection"/>
+		<property name="Buff_chance" value="0.3,0.09,0.4"/>
 	</property>
 </item>
 
