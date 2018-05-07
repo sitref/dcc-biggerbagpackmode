@@ -634,7 +634,7 @@ This requires a 50+ food bar:
 	<modify id="0" stat="health" amount="80" rate="3" />
 </buff>
 
-<buff id="shockedBuff" duration="4.5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
+<buff id="shockedBuff" duration="2.5" stack="discard" debuffif="ShockAmount equals 0" buffif="ShockAmount greater 0"
 	actions="attach(ParticleEffects/p_electric_shock, @impact)" castsound="electric_fence_impact"
 	icon="ui_game_symbol_electric_power" name_key="shockedBuffName" description_key="shockedBuffDesc" tooltip_key="shockedBuffTooltip">
 	<modify id="0" stat="health" amount="-3" rate="0.5"/>
