@@ -2242,11 +2242,11 @@
 	<property name="DeadBodyHitPoints" value="175"/>
 </entity_class>
 
+
 <entity_class name="animalZombieVulturerad" extends="animalZombieVulture">
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="HandItem" value="handZombieCop"/>
-	<property name="RightHandJointName" value="Jaw"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="PhysicsBody" value="vulture"/>
@@ -2257,9 +2257,10 @@
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
 	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
-	<property name="AITask-5" value="ApproachSpot"/>
-	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="30"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer"  param2="25"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
 	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
@@ -2273,22 +2274,9 @@
 	<property name="Explosion.BlockDamage" value="100"/>
 	<property name="Explosion.EntityDamage" value="50"/>
 	<property name="Explosion.DamageBonus.earth" value="0"/>
-	<property name="HeadDismemberBonusChance" value="0.08"/>
-	<property name="HeadDismemberThreshold" value="0"/>
-	<property name="LowerLegDismemberThreshold" value="0"/>
-	<property name="UpperLegDismemberThreshold" value="0"/>
-	<property name="LowerArmDismemberThreshold" value="0"/>
-	<property name="UpperArmDismemberThreshold" value="0"/>
-	<property name="LegCrawlerThreshold" value="0"/>
-	<property name="LegCrippleThreshold" value="0"/>
-	<property name="KnockdownProneDamageThreshold" value="0"/>
-	<property name="KnockdownKneelDamageThreshold" value="0"/>
-	<property name="LegsExplosionDamageMultiplier" value="2"/> <!-- volatile so vulnerable to land mines/explosives -->
-	<property name="ArmsExplosionDamageMultiplier" value="2"/>
-	<property name="HeadExplosionDamageMultiplier" value="2"/>
-	<property name="ChestExplosionDamageMultiplier" value="2"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="3"/> <!-- animalZombieVulture -->
-	<drop event="Harvest" name="feather" tool_category="Butcher" count="40"/><drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<drop event="Harvest" name="feather" tool_category="Butcher" count="40"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="Buffs" value="zombieRadiatedBuff40"/>
 </entity_class>
