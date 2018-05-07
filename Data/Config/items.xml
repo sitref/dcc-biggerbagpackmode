@@ -43,7 +43,7 @@ Mesh files no longer used:
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Melee"/>
 		<property name="Delay" value="1.33"/>
-		<property name="Range" value="2.2"/>
+		<property name="Range" value="2.3"/>
 		<property name="Sphere" value="0.2"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="8"/> <!-- 10 is the break even point with maxed Athletics and Sexosaurus, standing still -->
@@ -54,7 +54,7 @@ Mesh files no longer used:
 		<property name="ToolCategory.Butcher" value="0" param1="10"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="9,13"/>
+		<property name="EntityDamage" value="9,18"/>
 		<property name="BlockDamage" value="3,12"/>
 		<property name="DegradationMax" value="200,600"/>
 		<property name="DegradationRate" value="3,1"/>
@@ -95,7 +95,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.head" value="4"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="9,16"/>
+		<property name="EntityDamage" value="11,20"/>
 		<property name="BlockDamage" value="11.8,29.5"/>
 		<property name="DegradationMax" value="200,600"/>
 	</property>
@@ -118,7 +118,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.head" value="5"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="8,19"/>
+		<property name="EntityDamage" value="12,22"/>
 		<property name="BlockDamage" value="7.2,18"/>
 		<property name="DegradationMax" value="200,600"/>
 		<property name="DegradationRate" value="1,1"/>
@@ -141,7 +141,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.head" value="6"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="12,30"/>
+		<property name="EntityDamage" value="14,30"/>
 		<property name="BlockDamage" value="15.2,38"/> <!-- 30% of an iron pick -->
 		<property name="DegradationMax" value="200,600"/>
 		<property name="DegradationRate" value="1,1"/>
@@ -163,7 +163,7 @@ Mesh files no longer used:
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Melee"/>
 		<property name="Delay" value="1.8"/>
-		<property name="Range" value="2.4"/>
+		<property name="Range" value="2.6"/>
 		<property name="Sphere" value="0.2"/>
 		<property name="Block_range" value="4"/>
 		<property name="Sound_start" value="SlowSwoosh"/>
@@ -257,7 +257,7 @@ Mesh files no longer used:
 		<property name="ToolCategory.Butcher" value="0" param1="10"/>
 	</property>
 	<property class="Attributes">
-		<property name="EntityDamage" value="80,150"/>
+		<property name="EntityDamage" value="80,160"/>
 		<property name="BlockDamage" value="142,406"/> <!-- 80% of a steel pick -->
 		<property name="DegradationMax" value="300,1000"/>
 		<property name="DegradationRate" value="1,1"/>
@@ -1266,11 +1266,11 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Delay" value="0.6"/>
 		<property name="Range" value="2.8"/>
-		<property name="DamageEntity" value="18"/>
+		<property name="DamageEntity" value="16"/>
 		<property name="DamageBlock" value="3"/>
 		<property name="Stamina_usage" value="4"/>
-		<property name="DamageBonus.head" value="4"/>
-		<property name="DamageBonus.organic" value="11"/>
+		<property name="DamageBonus.head" value="5"/>
+		<property name="DamageBonus.organic" value="10"/>
 		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->

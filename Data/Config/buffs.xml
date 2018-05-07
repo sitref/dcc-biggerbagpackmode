@@ -145,7 +145,7 @@ built-in buff variables:
 
 <!-- Special buff for (small) wood spikes that only affects zombehs -->
 <buff id="trapDamageZombie" mutex="isPlayer" duration="2" stack="reset" >
-	<modify id="1" stat="health" amount="-22" rate="1"/>
+	<modify id="1" stat="health" amount="-33" rate="1"/>
 </buff>
 
 <!--
