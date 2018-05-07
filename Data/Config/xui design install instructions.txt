@@ -1,0 +1,15 @@
+Hi,
+
+And thank you for choosing SMX.
+
+This is the BigBag version of SMX, which means it has a modified data file (assembly-csharp.dll) which in turn means it cannot be used with EAC enabled.
+
+The standard UI design that BigBag ship with is the standard SMX frame.
+Should you want to use the BigBag mod with another design you simply rename xui.xml into xui - smx.xml
+Then copy/paste the design of your choice and rename the new copy file xui.xml.
+
+When doing this correctly that will allow you to use the UI design of your choice within SMX and BigBag.
+
+Enjoy!
+
+-S
