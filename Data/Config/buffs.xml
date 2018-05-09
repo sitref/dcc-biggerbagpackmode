@@ -138,7 +138,7 @@ built-in buff variables:
 
 <buff id="heavybleeding" duration="0" type="bleeding" actions="debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,10,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-	<modify id="1" stat="health" amount="-1" rate="3"/>
+	<modify id="1" stat="health" amount="-3" rate="1"/>
 </buff>
 
 
