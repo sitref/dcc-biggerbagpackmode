@@ -88,6 +88,7 @@ alcoholPoisoningDesc,buffs,Buff,EnChanged KgNone,You have alcohol poisoning. The
 beerBuzz,buffs,Buff,EnChanged KgNone,Buzzed,Boost à la bière,Bierrausch,,Cerveza Buzz
 ballCap,items,Clothes,EnChanged KgNone,White Baseball Cap,Casquette de baseball,Baseballmütze,,Gorra de béisbol
 blueberrySeed,items,Farming,EnChanged KgNone,Blueberry Seed,Graines de myrtille,Heidelbeersamen,,Semillas de mora
+snowberrySeed,items,Farming,EnChanged KgNone,Snowberry Seed,,Schneebeersamen,,
 potatoSeed,items,Farming,EnChanged KgNone,Potato Seed,Graines de pomme de terre,Saatkartoffel,,Semillas de papa
 treePlantedMaple1mDesc,items,Farming,EnChanged KgNone,Plant these seeds in dirt to grow a tree. They may grow in the desert but do prefer more fertile ground.,Plantez ces graines dans la terre pour faire pousser un arbre.,"Pflanze diese Samen in Erde, um einen Baum zu züchten.",,Planta estas semillas en la tierra para que crezca un árbol.
 treePlantedMountainPine1mDesc,items,Farming,EnChanged KgNone,Plant these seeds in dirt to grow a tree. They may grow in the desert but do prefer more fertile ground.,Plantez ces graines dans la terre pour faire pousser un arbre.,"Pflanze diese Samen in Erde, um einen Baum zu züchten.",,Planta estas semillas en la tierra para que crezca un árbol.

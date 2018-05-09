@@ -698,6 +698,7 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="ammoSupplies" count="2"/>
 			<item name="potassiumNitratePowder" count="2,5"/> <!-- 10 -->
 			<item name="antibioticsRecipe" /> 
+			<item name="steelPolish" count="5"/>
 		</trader_item_group>
 
 		<trader_item_group name="traderGeneral" count="1">
@@ -980,13 +981,15 @@ workstations
 	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />
 
 	<!-- Vending Machines found in the world. -->
-	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="3" max_inventory="4" min_items_swapped="2" max_items_swapped="3">
+	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="4" max_inventory="6" min_items_swapped="2" max_items_swapped="3">
 		<trader_items count="10">
 			<item name="bottledWater" count="0,2"/>
 			<item name="goldenRodTea" count="0,1"/>
 			<item name="redTea" count="0,1"/>
+			<item name="MacceruTea" count="0,1"/>
 			<item name="coffee" count="0,1"/>
 			<item name="beer" count="3,5"/>
+			<item name="Schmidtbier" count="3,5"/>
 			<item name="canMiso" count="0,2"/>
 			<item name="canPasta" count="0,2"/>
 			<item name="canSoup" count="0,2"/>
