@@ -1328,7 +1328,7 @@
 	<property name="ExperienceGain" value="2509"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="HandItem" value="handZombieWorker"/>
+	<property name="HandItem" value="handZombieStrong"/>
 	<property name="LootListOnDeath" value="73"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
@@ -1336,7 +1336,7 @@
 <entity_class name="zombieSoldierRadiated" extends="zombieSoldier">
 	<property name="MaxHealth" value="650"/>
 	<property name="ExperienceGain" value="3429"/>
-	<property name="HandItem" value="handZombieCopFeral"/>
+	<property name="HandItem" value="handZombieStrongFeral"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
 	<property name="Buffs" value="zombieRadiatedBuff40"/>
@@ -1345,7 +1345,7 @@
 <entity_class name="zombieSoldierFeral" extends="zombieSoldier">
 	<property name="MaxHealth" value="650"/>
 	<property name="ExperienceGain" value="3429"/>
-	<property name="HandItem" value="handZombieCopFeral"/>
+	<property name="HandItem" value="handZombieStrongFeral"/>
 	<property name="ApproachSpeed" value="1.15"/>
 	<property name="NightApproachSpeed" value="1.25"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_eye"/>
