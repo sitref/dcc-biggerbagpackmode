@@ -19,12 +19,12 @@
     <biome name="city">
         <spawn maxcount="4" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
         <spawn maxcount="6" respawndelay="1" time="Night" entitygroup="ZombiesNight" />
-		<spawn maxcount="3" respawndelay="1" time="Any" entitygroup="ZombieDogGroup" />
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="ZombieDogGroup" />
     </biome>
 <!-- Not Used anymore in Navezgane-->
     <biome name="city_wasteland">
       <spawn maxcount="3" respawndelay="1" time="Day" entitygroup="ZombiesAll" />
-      <spawn maxcount="3" respawndelay="1" time="Any" entitygroup="ZombiesBoss" />
+      <spawn maxcount="2" respawndelay="1" time="Any" entitygroup="ZombiesBoss" />
       <spawn maxcount="3" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
       <spawn maxcount="3" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" />
     </biome>
@@ -32,37 +32,37 @@
     <biome name="wasteland_hub">
       <spawn maxcount="4" respawndelay="1" time="Day" entitygroup="ZombiesWasteland" />
       <spawn maxcount="6" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
-	  <spawn maxcount="3" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" />
+	  <spawn maxcount="2" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" />
     </biome>
 
     <biome name="forest">
         <spawn maxcount="4" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
     </biome>
 
     <biome name="pine_forest">
         <spawn maxcount="4" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
     </biome>
 
     <biome name="plains">
         <spawn maxcount="4" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsPlains" spawnDeadChance="0" />
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsPlains" spawnDeadChance="0" />
     </biome>
 
     <biome name="desert">
         <spawn maxcount="4" respawndelay="4" time="Any"   entitygroup="ZombiesAll" />
-		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
     </biome>
 
     <biome name="wasteland">
         <spawn maxcount="4" respawndelay="1" time="Day"   entitygroup="ZombiesAll" />
         <spawn maxcount="4" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
-        <spawn maxcount="3" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
+        <spawn maxcount="2" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
 
     </biome>
 
@@ -73,7 +73,7 @@
 
     <biome name="snow">
 		<spawn maxcount="4" respawndelay="4" time="Any" entitygroup="SnowZombies" />
-		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
 		<spawn maxcount="2" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
 	</biome>
 

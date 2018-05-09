@@ -1302,7 +1302,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="8"/>
 		<property name="DamageBlock" value="50"/>
 		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.3,0.09,0.2,0.5"/>
+		<property name="Buff_chance" value="0.3,0.04,0.2,0.5"/>
 	</property>
 </item>
 
@@ -1324,7 +1324,7 @@ Mesh files no longer used:
 		<property name="Class" value="Melee"/>
 		<property name="Sphere" value="0.4"/>
 		<property name="DamageEntity" value="10"/>
-		<property name="DamageBlock" value="40"/>
+		<property name="DamageBlock" value="50"/>
 		<property name="Buff" value="burningSmall,infection,stunned"/>
 		<property name="Buff_chance" value="0.8,0.07,0.4"/>
 	</property>
@@ -1337,9 +1337,9 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Range" value="1.8"/>
 		<property name="DamageEntity" value="14"/>
-		<property name="DamageBlock" value="800"/>
+		<property name="DamageBlock" value="400"/>
 		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.4,0.1,0.2,0.1"/>
+		<property name="Buff_chance" value="0.4,0.05,0.2,0.1"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Vomit"/>
@@ -1370,7 +1370,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="DamageEntity" value="6"/>
-		<property name="DamageBlock" value="400"/>
+		<property name="DamageBlock" value="200"/>
 		<property name="Explosion.ParticleIndex" value="7"/>
 		<property name="Velocity" value="25"/>
 		<property name="FlyTime" value="0.90"/>
@@ -1392,7 +1392,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="12"/>
 		<property name="DamageBlock" value="40"/>
 		<property name="Buff" value="bleeding,heavybleeding,infection"/>
-		<property name="Buff_chance" value="0.8,0.2,0.4"/>
+		<property name="Buff_chance" value="0.6,0.1,0.4"/>
 		<property name="DamageBonus.earth" value="6"/>
 	</property>
 </item>
@@ -1402,9 +1402,9 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
 		<property name="DamageEntity" value="14"/>
-		<property name="DamageBlock" value="200"/>
+		<property name="DamageBlock" value="150"/>
 		<property name="Buff" value="heavybleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.2,0.2,0.4"/>
+		<property name="Buff_chance" value="0.1,0.2,0.4"/>
 	</property>
 </item>
 
@@ -1419,7 +1419,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="18"/>
 		<property name="DamageBlock" value="100"/>
 		<property name="Buff" value="heavybleeding,stunned"/>
-		<property name="Buff_chance" value="0.2,0.3"/>
+		<property name="Buff_chance" value="0.1,0.3"/>
 	</property>
 </item>
 
@@ -1450,9 +1450,9 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="9"/>
 	<property class="Action0">
-		<property name="DamageBlock" value="300"/>
+		<property name="DamageBlock" value="150"/>
 		<property name="Buff" value="shockedBuff"/>
-		<property name="Buff_chance" value="0.4"/>
+		<property name="Buff_chance" value="0.2"/>
 	</property>
 </item>
 
@@ -1624,7 +1624,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="10"/>
 		<property name="DamageBlock" value="80"/>
 		<property name="Buff" value="bleeding,heavybleeding,infection"/>
-		<property name="Buff_chance" value="0.3,0.09,0.4"/>
+		<property name="Buff_chance" value="0.3,0.05,0.4"/>
 	</property>
 </item>
 
@@ -6985,7 +6985,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
-		<property name="Buff" value="improvedsplint"/>
+		<property name="Buff" value="improvedsplint,firstAid"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
@@ -6995,7 +6995,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
-		<property name="Buff" value="splint"/>
+		<property name="Buff" value="splint,firstAid"/>
 	</property>
 	<property name="Group" value="Science"/>
 	<property name="ActionSkillGroup" value="Medicine"/>
@@ -7050,7 +7050,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout"/>
+		<property name="Debuff" value="bleeding,heavybleeding,arrowCriticalBleedout"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Eat"/>
@@ -7060,7 +7060,7 @@ Mesh files no longer used:
 		<property name="Gain_food" value="0"/>
 		<property name="Gain_water" value="0"/>
 		<property name="Sound_start" value="player_bandage"/>
-		<property name="Debuff" value="bleeding,arrowCriticalBleedout"/>
+		<property name="Debuff" value="bleeding,heavybleeding,arrowCriticalBleedout"/>
 	</property>
 	<property name="Group" value="Science,Basics"/>
 	<property name="DescriptionKey" value="bandageDesc"/>

@@ -136,9 +136,9 @@ built-in buff variables:
 	<modify id="1" stat="health" amount="-1" rate="1"/>
 </buff>
 
-<buff id="heavybleeding" duration="120" type="bleeding" actions="debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,10,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOutheavy" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
+<buff id="heavybleeding" duration="90" type="bleeding" actions="debuff(fullBuff);debuff(firstAid);debuff(firstAidLarge);damage(0,5,0,0)" icon="ui_game_symbol_critical" name_key="bleedingOut" description_key="bleedingOutDesc" tooltip_key="bleedingOutTooltip" cures="bandage,firstAidBandage,firstAidKit">
 	<modify id="0" stat="stamina" amount="-1" rate="1"/>
-	<modify id="1" stat="health" amount="-3" rate="1"/>
+	<modify id="1" stat="health" amount="-2" rate="1"/>
 </buff>
 
 
@@ -346,11 +346,11 @@ icon="ui_game_symbol_pills" name_key="painkillersBuffName" description_key="pain
 	<modify id="1" stat="health" amount="-15" rate="1"/>
 </buff>
 
-<buff id="brokenLeg" duration="10000" ondebuff="healingbrokenLeg" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);debuff(healingbrokenLeg);debuff(improvedsplint)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
+<buff id="brokenLeg" duration="10000" ondebuff="healingbrokenLeg" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);debuff(healingbrokenLeg);debuff(improvedsplint)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint,improvedsplint">
 	<modify id="0" stat="speedmodifier" mulValue="0.6"/>
 </buff>
 
-<buff id="healingbrokenLeg" duration="15200" mutex="brokenLeg" actions="debuff(firstAid);debuff(sprainedLeg)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint">
+<buff id="healingbrokenLeg" duration="15200" mutex="brokenLeg" actions="debuff(firstAid);debuff(sprainedLeg)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint,improvedsplint">
 	<modify id="0" stat="speedmodifier" mulValue="0.7"/>
 </buff>
 
@@ -362,17 +362,18 @@ icon="ui_game_symbol_pills" name_key="painkillersBuffName" description_key="pain
 </buff>
 
 <buff id="improvedsplint" overrides="brokenLeg,sprainedLeg,healingbrokenLeg,splint" type="speedmodifier" overrideicon="true" icon="ui_game_symbol_splint" name_key="splintedLeg" description_key="splintedLegDesc" tooltip_key="splintedLegTooltip">
-	<modify id="0" stat="speedmodifier" mulValue="1.2"/>
-	<modify id="1" buff="brokenLeg" tickrate="3"/>
-	<modify id="2" buff="sprainedLeg" tickrate="5"/>
-	<modify id="3" buff="healingbrokenLeg" tickrate="4"/>
+	<modify id="0" stat="speedmodifier" mulValue="1.24"/>
+	<modify id="1" buff="brokenLeg" tickrate="2"/>
+	<modify id="2" buff="sprainedLeg" tickrate="2"/>
+	<modify id="3" buff="healingbrokenLeg" tickrate="2"/>
+	<modify id="4" buff="splint" tickrate="2"/>
 </buff>
 
-<buff id="sprainedLeg" mutex="brokenLeg" type="speedmodifier" duration="2400" actions="debuff(firstAid);debuff(splint);debuff(improvedsplint)" icon="ui_game_symbol_brokenbone" name_key="sprainedLeg" description_key="sprainedLegDesc" tooltip_key="sprainedLegTooltip" cures="splint">
+<buff id="sprainedLeg" mutex="brokenLeg" type="speedmodifier" duration="2400" actions="debuff(firstAid);debuff(splint);debuff(improvedsplint)" icon="ui_game_symbol_brokenbone" name_key="sprainedLeg" description_key="sprainedLegDesc" tooltip_key="sprainedLegTooltip" cures="splint,improvedsplint">
 	<modify id="0" stat="speedmodifier" mulValue="0.80"/>
 </buff>
 
-<buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk" duration="3" actions="increment(@wellness, -0.5, 0, 0, 1)" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
+<buff id="stunned" mutex="stunCooldown,painkillerBuff,Buzzed,Drunk" duration="2" actions="increment(@wellness, -0.5, 0, 0, 1)" onexpired="stunCooldown" type="speedmodifier" icon="ui_game_symbol_stunned" name_key="stunned" description_key="stunnedDesc" tooltip_key="stunnedTooltip">
 	<modify id="0" stat="speedmodifier" mulValue="0.1"/>
 </buff>
 <buff id="stunCooldown" duration="3" stack="discard"/>

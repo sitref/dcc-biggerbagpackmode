@@ -48,6 +48,7 @@
 	<property name="MapIcon" value="ui_game_symbol_map_player_arrow"/>
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="DropInventoryBlock" value="cntBackpackDropped"/>
+	<property name="ItemsOnEnterGame.GameModeSurvival" value="bottledWater,cornBread,firstAidBandage,torch,Schmidtbier"/>
 	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="bottledWater,cornBread,firstAidBandage,torch,Schmidtbier"/>
 	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="bottledWater,cornBread,firstAidBandage,torch,Schmidtbier"/>
 	<property name="ExperienceGain" value="173"/>
