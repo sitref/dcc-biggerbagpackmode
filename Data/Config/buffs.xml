@@ -265,7 +265,7 @@ The "MetabolizeBeer" buff will slowly reduce the beer variable.
 <buff id="dysentery2" duration="0" actions="increment(@wellness, -0.25, 100t, 0, 0)" type="sickness"
 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery2" description_key="dysentery2Desc" tooltip_key="dysentery2Tooltip" cures="herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
 	<modify id="0" stat="stamina" amount="-3" rate="1"/>
-	<modify id="1" stat="health" amount="-5" rate="60"/>
+	<modify id="1" stat="health" amount="-4" rate="60"/>
 </buff>
 
 <buff id="foodPoisoning" duration="30" stack="extend" actions="increment(@wellness, -.5, 14, 0, 0)" type="sickness" icon="ui_game_symbol_food_poisoning" name_key="foodPoisoning" description_key="foodPoisoningDesc" tooltip_key="foodPoisoningTooltip" causes="moldyBread,shamSandwich,rawMeat,rottingFlesh,egg">
