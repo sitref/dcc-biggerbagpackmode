@@ -109,8 +109,8 @@
 		<entity name="zombieBikerRadiated" prob="0.03" />
 		<entity name="zombieBikerFeral" prob="0.01" />
 		<entity name="zombieBikerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" prob="0.1" />
-		<entity name="animalZombieDograd" prob="0.03" />
+		<entity name="animalZombieDog" prob="0.05" />
+		<entity name="animalZombieDograd" prob="0.01" />
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
@@ -161,8 +161,8 @@
 		<entity name="zombieBikerRadiated" prob="0.03" />
 		<entity name="zombieBikerFeral" prob="0.01" />
 		<entity name="zombieBikerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" prob="0.1" />
-		<entity name="animalZombieDograd" prob="0.03" />
+		<entity name="animalZombieDog" prob="0.05" />
+		<entity name="animalZombieDograd" prob="0.01" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
 		<entity name="zombieSteveCrawlerFeralRadiated" prob="0.005" />
@@ -206,8 +206,8 @@
 		<entity name="zombieSpiderFeralRadiated" prob="0.005" />
 		<entity name="zombieBikerFeral" prob="0.01" />
 		<entity name="zombieBikerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" prob="0.1" />
-		<entity name="animalZombieDograd" prob="0.03" />
+		<entity name="animalZombieDog" prob="0.05" />
+		<entity name="animalZombieDograd" prob="0.01" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
 		<entity name="zombieSteveCrawlerFeralRadiated" prob="0.005" />
 		<entity name="zombieSnowFeral" prob="0.01" />
@@ -260,8 +260,8 @@
 		<entity name="zombieBikerRadiated" prob="0.03" />
 		<entity name="zombieBikerFeral" prob="0.01" />
 		<entity name="zombieBikerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" prob="0.1" />
-		<entity name="animalZombieDograd" prob="0.03" />
+		<entity name="animalZombieDog" prob="0.05" />
+		<entity name="animalZombieDograd" prob="0.01" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
 		<entity name="zombieSteveCrawlerFeralRadiated" prob="0.005" />
@@ -369,9 +369,9 @@
 		<entity name="zombieFatCopFeral" prob="0.01" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.005" />
 		<entity name="animalZombieDog" prob="0.03"/>
-		<entity name="animalZombieDograd" prob="0.03"/>
-		<entity name="animalZombieBear" prob="0.03"/>
-		<entity name="trollunyaBear" prob="0.03"/>
+		<entity name="animalZombieDograd" prob="0.003"/>
+		<entity name="animalZombieBear" prob="0.003"/>
+		<entity name="trollunyaBear" prob="0.01"/>
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
@@ -452,8 +452,8 @@
 		<entity name="zombieFarmerRadiated" prob="0.03" />
 		<entity name="zombieFarmerFeral" prob="0.01" />
 		<entity name="zombieFarmerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" />
-		<entity name="animalZombieDograd" />
+		<entity name="animalZombieDog" "0.01" />
+		<entity name="animalZombieDograd" prob="0.005"/>
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />
 		<entity name="zombieSteveCrawlerFeral" prob="0.01" />
@@ -657,14 +657,14 @@
 		<entity name="animalZombieVulture" />
 		<entity name="animalZombieVulturerad" prob="0.5" />
 		<entity name="animalZombieVulturescout" prob="0.5" />
-		<entity name="animalZombieDog" />
-		<entity name="animalZombieDograd" />
+		<entity name="animalZombieDog" prob="0.3" />
+		<entity name="animalZombieDograd" prob="0.1 "/>
 		<entity name="animalZombieBear" prob="0.15" />
 	</entitygroup>
 
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog" />
-		<entity name="animalZombieDograd" />
+		<entity name="animalZombieDograd" prob="0.3" />
 	</entitygroup>
 
 	<entitygroup name="WolfGroup">
