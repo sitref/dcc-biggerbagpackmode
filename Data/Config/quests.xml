@@ -46,7 +46,6 @@
 
 		<objective type="Craft" id="stoneAxe" value="1" />
 		<reward type="Quest" id="quest_BasicSurvival3" />
-
     </quest>
 
 	<!-- Basic Survival 3 - Craft Plant Fiber Clothing /> -->
@@ -138,8 +137,9 @@
 		<objective type="BlockPlace" id="workbench" value="1" />
 
 		<reward type="SkillPoints" value="6" />
-		<reward type="Quest" id="write" />
-		<reward type="Quest" id="quest_BasicSurvival11" />
+		
+		<reward type="Quest" id="quest_write1" /> 
+		<reward type="Quest" id="quest_BasicSurvival11" /> 
     </quest>
 
 	<quest id="quest_BasicSurvival11" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival11" subtitle_key="quest_BasicSurvival11_subtitle" description_key="quest_BasicSurvival11_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="easy">
@@ -154,18 +154,25 @@
 		<reward type="SkillPoints" value="6" />
     </quest>
 	
-	<quest id="write" group_name_key="quest_BasicSurvival" name_key="write" subtitle_key="quest_write_subtitle" description_key="quest_write_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="easy">
+	<quest id="quest_write1" group_name_key="quest_write" name_key="quest_write1" subtitle_key="quest_write_subtitle" description_key="quest_write_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="easy">
 		<objective type="FetchKeep" id="printedPaper" value="90" />
 		<objective type="FetchKeep" id="beaker" value="1" />
 		<objective type="FetchKeep" id="oil" value="9" />
 		<objective type="FetchKeep" id="bottledRiverWater" value="3" />
 		<objective type="Craft" id="newsprint" value="3" />
+
+		<reward type="SkillPoints" value="1" />
+		<reward type="Quest" id="quest_write2" /> 
+    </quest>
+	
+		<quest id="quest_write2" group_name_key="quest_write" name_key="quest_write2" subtitle_key="quest_write_subtitle" description_key="quest_write_description" icon="ui_game_symbol_campfire" category_key="quest" difficulty="easy">
+		
 		<objective type="FetchKeep" id="paper" value="128" />
 		<objective type="Craft" id="emptyBook" value="2" />
 		<objective type="FetchKeep" id="feather" value="5" />
-		<objective type="Craft" id="self-writtenBook" value="1" />
-		
-		<reward type="SkillPoints" value="2" />
+		<objective type="Craft" id="selfwrittenBook" value="1" />
+
+		<reward type="SkillPoints" value="1" />
     </quest>
 	
 	<!-- White River Citizen 1 - Journey to Settlement -->

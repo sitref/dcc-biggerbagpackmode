@@ -156,6 +156,22 @@
 		</action_skill>
 
 	<!-- Item Usage Skills -->
+	
+		<action_skill name="Boxing" exp_to_level="150" icon="club" description_key="boxingDesc" title_key="boxing" group="weapons">
+		<effect name="EntityDamage">
+			<multiply skill_level="1,5" value="1,1.04"/>
+			<multiply skill_level="5,11" value="1.04,1.07"/>
+			<multiply skill_level="11,19" value="1.07,1.1"/>
+			<multiply skill_level="19,32" value="1.1,1.14"/>
+			<multiply skill_level="32,49" value="1.14,1.19"/>
+			<multiply skill_level="49,70" value="1.19,1.23"/>
+			<multiply skill_level="70,100" value="1.23,1.28"/>
+		</effect>
+		<effect name="HarvestCount">
+			<multiply skill_level="1,100" value="0,0"/>
+		</effect>
+	</action_skill>
+	
 	<action_skill name="Blunt Weapons" exp_to_level="150" icon="club" description_key="bluntWeaponsDesc" title_key="bluntWeapons" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>

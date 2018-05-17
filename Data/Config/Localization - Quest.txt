@@ -82,7 +82,9 @@ quest_BasicSurvival10_description,,Quest Info,KgNone,Gather Wrench and a Clawham
 quest_BasicSurvival11,,Quest Info,KgNone,Basic Survival 11/11,Les bases de la survie 11/11,Das 1x1 des Überlebens 11/11,,Supervivencia básica 11/11
 quest_BasicSurvival11_subtitle,,Quest Info,KgNone,Build a Chemistry Station,,Mache eine Chemiestation,,
 quest_BasicSurvival11_description,,Quest Info,KgNone,Loot Beakers and Craft a Chemistry Station . Equip the Chemistry Station and place it in the world using the secondary action. Once placed you can use the Chemistry Station to Craft new materials.,,"Sammle Bechergläaser und fertige im Fertigungs-Fenster eine Chemiestation. Wenn sie platziert ist, kannst du die Chemiestation verwenden, um Chemikalien oder alkohol zu machen.",,
-write,,Quest Info,KgNone,Inspiration,,Inspiration,,
+quest_write,,Quest Info,KgNone,Inspiration,,Inspiration,,
+quest_write1,,Quest Info,KgNone,Ink,,Tinte,,
+quest_write2,,Quest Info,KgNone,Paper,,Papier,,
 quest_write_subtitle,,Quest Info,KgNone,Write a Book,,Schreibe ein Buch,,
 quest_write_description,,Quest Info,KgNone,Gather printed Paper by scraping useless recipes or Books.Get the Ink out and write down your own story.Read it afterwards it will help you learn to Survive!,,Zerstöre überschüssige Bücher und Rezepte um aus ihren bedruckten Seiten die Druckerschwärze zu gewinnen. Verwende diese um deine eigenen Geschichten zu Papier zu bringen.Lese dein eigenes Werk anschließend, es wird dir helfen aus deinen Erfahrungen zu lernen!,,
 quest_WhiteRiverCitizen,,Quest Info,KgNone,White River Citizen,Citoyen de la Rivière blanche,Bürger von White River,,Ciudadano de Río Blanco

@@ -1266,11 +1266,11 @@ Mesh files no longer used:
 	<property class="Action0">
 		<property name="Delay" value="0.6"/>
 		<property name="Range" value="2.8"/>
-		<property name="DamageEntity" value="16"/>
+		<property name="DamageEntity" value="14"/>
 		<property name="DamageBlock" value="3"/>
 		<property name="Stamina_usage" value="4"/>
-		<property name="DamageBonus.head" value="5"/>
-		<property name="DamageBonus.organic" value="10"/>
+		<property name="DamageBonus.head" value="4"/>
+		<property name="DamageBonus.organic" value="8"/>
 		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
 	</property>
 	<property class="Action1"> <!-- UseAction -->
@@ -1291,7 +1291,7 @@ Mesh files no longer used:
 		<property name="DismembermentBaseChance" value="-0.2,-0.2"/>
 		<property name="DismembermentBonus" value="0,0"/>
 	</property>
-	<property name="ActionSkillGroup" value="Athletics"/>
+	<property name="ActionSkillGroup" value="Boxing"/>
 	<!--use_action class="LiftUpTerrain" delay="1" use_time="..." gain_health="-5"gain_stamina="-20" gain_food="0" gain_water="10" gain_sickness="15" condition_raycast_block="77,78,79,80" sound_start="player_drinking" /-->
 </item>
 
@@ -1302,7 +1302,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="8"/>
 		<property name="DamageBlock" value="50"/>
 		<property name="Buff" value="bleeding,heavybleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.3,0.04,0.2,0.5"/>
+		<property name="Buff_chance" value="0.4,0.04,0.2,0.5"/>
 	</property>
 </item>
 
@@ -9203,7 +9203,7 @@ Mesh files no longer used:
 	</property>
 </item>
 
-<item id="1161" name="self-writtenBook">
+<item id="1161" name="selfwrittenBook">
 	<property name="Extends" value="questMaster"/>
 	<property class="Action1">
 		<property name="QuestGiven" value="BookWriting"/>
@@ -10485,6 +10485,112 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="1500"/>
 	<property name="CraftingIngredientTime" value="60"/>
 	<property name="DescriptionKey" value="rareOresGroupDesc"/>
+</item>
+
+
+<item id="1401" name="selfmadeFilterBottle">
+	<property name="Meshfile" value="Items/Food/emptyJarPrefab"/>
+	<property name="Material" value="organic"/>
+	<property name="HoldType" value="3"/>
+	<property name="CustomIcon" value="megaCrush"/>
+	<property name="CustomIconTint" value="8B4513"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="CraftingIngredientTime" value="9"/>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="ExchangeItem"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Change_item_to" value="FilterBottleFilled5"/>
+		<property name="Do_block_action" value="deplete1"/>
+		<property name="Focused_blockname_1" value="water"/>
+		<property name="Focused_blockname_2" value="waterMoving"/>
+		<property name="Focused_blockname_3" value="waterStaticBucket"/>
+		<property name="Focused_blockname_4" value="waterMovingBucket"/>
+		<property name="Focused_blockname_5" value="waterSource8"/>
+		<property name="Sound_start" value="bucketfill_water"/>
+	</property>
+	<property name="Group" value="Resources"/>
+</item>
+
+<item id="1402" name="FilterBottleFilled5">
+	<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
+	<property name="CustomIcon" value="megaCrush"/>
+	<property name="CustomIconTint" value="8B4513"/>
+	<property name="DescriptionKey" value="FilterBottleFilledDesc" />
+	<property name="Material" value="organic"/>
+	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="1"/> <!-- STK drink -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="CraftingIngredientTime" value="15"/>
+	<property class="Action1">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="0"/>
+		<property name="Gain_stamina" value="20"/>
+		<property name="Gain_food" value="0"/>
+		<property name="Gain_water" value="15"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Buff" value="extinguishFireBuff"/>
+		<property name="Create_item" value="FilterBottleFilled4"/>
+	</property>
+	<property name="Group" value="Food/Cooking"/>
+</item>
+
+
+<item id="1408" name="FilterBottleFilled4">
+	<property name="Extends" value="FilterBottleFilled5" />
+	<property class="Action1">
+		<property name="Create_item" value="FilterBottleFilled3"/>
+	</property>
+</item>
+
+<item id="1409" name="FilterBottleFilled3">
+	<property name="Extends" value="FilterBottleFilled5" />
+	<property class="Action1">
+		<property name="Create_item" value="FilterBottleFilled2"/>
+	</property>
+</item>
+
+<item id="1410" name="FilterBottleFilled2">
+	<property name="Extends" value="FilterBottleFilled5" />
+	<property class="Action1">
+		<property name="Create_item" value="FilterBottleFilled1"/>
+	</property>
+</item>
+
+<item id="1411" name="FilterBottleFilled1">
+	<property name="Extends" value="FilterBottleFilled5" />
+	<property class="Action1">
+		<property name="Create_item" value="usedFilterBottle"/>
+	</property>
+</item>
+
+<item id="1412" name="usedFilterBottle">
+	<property name="Meshfile" value="Items/Food/emptyJarPrefab"/>
+	<property name="Material" value="organic"/>
+	<property name="HoldType" value="3"/>
+	<property name="CustomIcon" value="megaCrush"/>
+	<property name="CustomIconTint" value="8B6969"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="6"/>
+	<property name="CraftingIngredientTime" value="9"/>
+	<property name="Group" value="Resources"/>
+</item>
+
+<item id="1414" name="waterFilter">
+	<property name="Meshfile" value="Items/Crafting/beaker"/>
+	<property name="Material" value="organic"/>
+	<property name="CustomIcon" value="forgeCrucible"/>
+	<property name="CustomIconTint" value="000000"/>	
+	<property name="HoldType" value="2"/>
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="5"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
 </item>
 
 <item id="1413" name="coffeeBeans">

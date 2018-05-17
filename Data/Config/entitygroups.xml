@@ -452,7 +452,7 @@
 		<entity name="zombieFarmerRadiated" prob="0.03" />
 		<entity name="zombieFarmerFeral" prob="0.01" />
 		<entity name="zombieFarmerFeralRadiated" prob="0.005" />
-		<entity name="animalZombieDog" "0.01" />
+		<entity name="animalZombieDog"  prob="0.01" />
 		<entity name="animalZombieDograd" prob="0.005"/>
 		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveCrawlerRadiated" prob="0.03" />

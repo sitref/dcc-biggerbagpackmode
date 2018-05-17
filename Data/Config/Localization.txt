@@ -1502,7 +1502,7 @@ vegetableStewDesc,items,Food,KgNone,Your mom always said eat your vegetables. No
 blunderbuss,items,Gun,KgNone,Blunderbuss,Tromblon,Donnerbüchse,,Trabuco
 crossbow,items,Gun,KgNone,Crossbow,Arbalète,Armbrust,,Ballesta
 crossbowscope,items,Gun,KgNone,Crossbow with scope,Arbalète,Armbrust mitt Zielfernrohr,,Ballesta
-extMagazineCbow,items,Gun,KgNone,Crossbow extended mag,Arbalète,Armbrust erweitertes Magazin,,Ballesta
+extMagazineCbow,items,Gun,KgNone,Crossbow extended Mag,Arbalète,Armbrust erweitertes Magazin,,Ballesta
 crossbowDesc,items,Gun,KgNone,A crossbow does more damage than a wooden bow. Good for hunting and not making noise. Hold reload to use alternate ammo.,"Une arbalète inflige plus de dégâts qu'un arc en bois. Idéale pour la chasse, cette arme ne fait pas de bruit. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.","Eine Armbrust verursacht mehr Schaden als ein Holzbogen. Eignet sich gut dazu, geräuschlos zu jagen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una ballesta inflige más daño que un arco de madera. Es buena para cazar y no hacer ruido. Mantén presionado recargar para usar munición alternativa.
 dynamite,items,Gun,EnChanged,Stick of Dynamite (Ammo),Bâton de dynamite,Dynamitstange (Mun),,Cartucho de dinamita
 dynamiteDesc,items,Gun,KgNone,A stick of dynamite can be lit with the secondary action & thrown with the primary action. The throwing part is very important.,Le bâton de dynamite peut être allumé avec l'action secondaire et jeté avec l'action principale. Le lancer est primordial.,Eine Dynamitstange kann mit der sekundären Aktion gezündet und mit der primären Aktion geworfen werden. Der Teil mit dem Werfen ist besonders wichtig.,,"Se puede prender un cartucho de dinamita con la acción secundaria, y lanzarlo con la acción primaria. Es muy importante lanzarlo."
@@ -1671,6 +1671,14 @@ trophy3,items,Item,KgNone,Tungsten Trophy,Trophée en tungstène,Wolframtrophäe
 trophyDesc,items,Item,KgNone,Brass objects can be scrapped into scrap brass in your backpack or smelted in a forge as a core resource.,"Les objets en laiton peuvent être recyclés dans votre sac à dos pour obtenir du laiton recyclé, ou fondus dans la forge pour obtenir une ressource de base.","Gegenstände aus Messing können in deinem Rucksack zerlegt werden, um Messingstücke zu erhalten. Sie können auch in der Schmiede eingeschmolzen werden, um den Rohstoff selbst zu erhalten.",,Los objetos de latón se pueden despedazar para tener chatarra de latón en tu mochila o fundir en la fragua para obtener recursos básicos.
 turd,items,Item,KgNone,A human turd,Une crotte d'humain,Menschliche Scheiße,,Una mierda humana
 turdDesc,items,Item,KgNone,A disgusting turd. Only pick up on the clean end. It can be thrown at your friends or to distract zombies.,Une crotte dégoutante. À ramasser par le bout propre. Vous pouvez la jeter sur vos amis ou vous en servir pour distraire des zombies.,Ekelhafte Scheiße. Heb sie nur am sauberen Ende auf. Du kannst sie auf deine Freunde werfen oder damit Zombies ablenken.,,"Una mierda asquerosa. Recógela por la parte limpia. Se la puedes lanzar a tus amigos, o a los zombis para distraerlos."
+waterFilter,items,Item,KgNone,Water filter,,Wasserfilter,,
+waterFilterDesc,items,Item,KgNone,selfmade Water filter,,Selbstgemachter Wasserfilter,,
+selfmadeFilterBottle,items,Item,KgNone,Water bottle with filter,,Wasserflasche mit Filter,,
+selfmadeFilterBottleDesc,items,Item,KgNone,"Filterd water everywhere, beware the filter has only one use",,"Kaltes - klares - Wasser zu jeder Zeit, aber der Filter kann nur einmal benutzt werden",,
+FilterbottleFilled,items,Item,KgNone,filled Waterbottle,,gefüllte Wasserflasche,,
+FilterbottleFilledDesc,items,Item,KgNone,filled Waterbottle five time better than a normal one,,Fünf mal ... Kaltes - klares - Wasser,,
+usedFilterBottle,items,Item,KgNone,used Filter bottle,,benutzte Filterflasche,,
+usedFilterBottleDesc,items,Item,KgNone,This bottle needs a new filter,,Diese Flasche braucht einen neuen Filter,,
 wood,items,Item,KgNone,Wood,Bois,Holz,,Madera
 woodDesc,items,Item,KgNone,A piece of wood. Great for building tools and constructing wood frames for building.,Un morceau de bois. Idéal pour fabriquer des outils et construire des structures en bois pour les constructions.,"Ein Stück Holz. Ideal, um Werkzeuge und Holzrahmen für den Bau herzustellen.",,Un trozo de madera. Ideal para construir herramientas y estructuras de madera para edificios.
 yuccaFibers,items,Item,KgNone,Plant Fibers,Fibres végétales,Pflanzenfaser,,Fibra vegetal
@@ -1867,6 +1875,8 @@ bladeWeapons,progression,Skill,KgNone,Blade Weapons,Armes à lame,Klingenwaffen,
 bladeWeaponsDesc,progression,Skill,KgNone,Do more damage with bladed weapons and harvest faster if applicable. Gain skill by using items from this group.,"Infligez davantage de dégâts avec les armes à lame et récoltez plus rapidement, le cas échéant. Obtenez cette compétence en utilisant des objets de ce groupe.","Verursache mehr Schaden mit Klingenwaffen. Sammle zudem gegebenenfalls schneller. Erhöhe die Fertigkeit, indem du Gegenstände aus dieser Kategorie benutzt.",,"Inflige más daño con armas de hoja y, si aplica, cosecha más rápido. Mejora tu habilidad usando objetos de este grupo."
 bluntWeapons,progression,Skill,KgNone,Blunt Weapons,Armes contondantes,Stumpfe Waffen,,Armas contundentes
 bluntWeaponsDesc,progression,Skill,KgNone,Do more damage with blunt weapons. Gain skill by using items from this group.,Infligez davantage de dégâts avec les armes contondantes. Obtenez cette compétence en utilisant des objets de ce groupe.,"Verursache mehr Schaden mit stumpfen Waffen. Erhöhe die Fertigkeit, indem du Gegenstände aus dieser Kategorie benutzt.",,Inflige más daño con armas contundentes. Mejora tu habilidad usando objetos de este grupo.
+boxing,progression,Skill,KgNone,Boxing,,Faustkampf,,
+boxingDesc,progression,Skill,KgNone,Do more damage with your bloody hands.,,"Verursache mehr Schaden mit deinen Fäusten.",,
 constructionTools,progression,Skill,KgNone,Construction Tools,Outils de construction,Bauwerkzeuge,,Herramientas de construcción
 constructionToolsDesc,progression,Skill,KgNone,"Do more damage and harvest faster with construction tools including the stone axe, wrench, hammer and the nailgun. Gain skill by using items from this group.","Infligez davantage de dégâts et récoltez plus rapidement avec les outils de construction, comme les haches de pierre, clés à molette, marteaux et pistolets à clous. Obtenez cette compétence en utilisant des objets de ce groupe.","Verursache mehr Schaden und sammle schneller mit Bauwerkzeugen, inklusive Steinaxt, Schraubenschlüssel, Hammer und Nagelpistole. Erhöhe die Fertigkeit, indem du Gegenstände aus dieser Kategorie benutzt.",,"Inflige más daño y cosecha más rápido con herramientas de construcción como el hacha de piedra, la llave, el mazo y la pistola de clavos. Mejora tu habilidad usando objetos de este grupo."
 decapitator,progression,Skill,KgNone,The Decapitator,Le décapiteur,Der Enthaupter,,El Decapitador
@@ -4310,7 +4320,7 @@ ttRepairBeforePickup,UI,Tooltip,New,You must repair this before picking it up.,,
 electricBasicsName,progression,Perk,New,Electricity Basics,,,,
 electricBasicsDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 BookWritingName,progression,Perk,New,Learn to make Books and ink,,,,
-BookWritingDesc,progression,Perk,New,This perk will unlock recipes for Self-written Books.,,,,
+BookWritingDesc,progression,Perk,New,This perk will unlock recipes for Selfwritten Books.,,,,
 electricTriggersName,progression,Perk,New,Switches and Triggers,,,,
 electricTriggersDesc,progression,Perk,New,This perk will unlock recipes for electrical devices.,,,,
 electricTrapsMeleeName,progression,Perk,New,Melee Traps,,,,
@@ -4983,7 +4993,7 @@ fruitBrandDesc,items,item,KgNone,Here's to us and here's to them. f*** them - he
 Schmidtbier,items,item,KgNone,Schmidtbier,,Schmidtbier,,
 SchmidtbierDesc,items,item,KgNon,Only available at the Schmidtbar,,Nur in der Schmidtbar erhältlich,,
 MacceruTea,items,item,KgNone,Macceru Tea,,Macceru Tee,,
-MacceruTeaDesc,items,item,KgNon,it's cold!Let's drink red tea! ,,Es ist kalt!Lass uns roten Tee trinken-roter Tee wärmt doch,,
+MacceruTeaDesc,items,item,KgNon,"it's cold! Let's drink red tea!",,"Es ist kalt! Lass uns roten Tee trinken - roter Tee wärmt doch",,
 ActofPolishing,items,Book,New,Act of Polishing,,Richtig Polieren,,
 ActofPolishingDesc,items,Book,New,Read this book to learn how to polish your Steeltools.,,Lerne dein Stahlwerkzeug zu polieren,,
 simpleWeaponImprovements,items,Book,simple Weapon improvements,,einfache Waffenverbesserungen,,
