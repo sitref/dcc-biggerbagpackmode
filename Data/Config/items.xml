@@ -3920,7 +3920,7 @@ Mesh files no longer used:
 	<property name="VehicleSlotType" value="wheel"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-	<property name="Material" value="metal"/>
+	<property name="Material" value="Mplastics"/>
 	<property name="RepairTools" value="repairKit"/>
 	<property name="HoldType" value="45"/>
 	<property name="Weight" value="30"/>
