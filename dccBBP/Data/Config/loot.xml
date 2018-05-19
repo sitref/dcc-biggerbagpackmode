@@ -1634,8 +1634,8 @@
 	<item group="hazmatGear" count="1" prob="0.08"/>
 	<item group="questChallenge" count="1" prob="0.191"/>
 	<item group="treasureMaps" count="1" prob="0.161"/> <!-- total 2% for a quest thing -->
-	<item group="silverNugget" count="1,4" prob="0.2" />
-	<item group="goldNugget" count="1,2" prob="0.05" />
+	<item name="silverNugget" count="1,4" prob="0.2" />
+	<item name="goldNugget" count="1,2" prob="0.05" />
 </lootcontainer>
 
 <!-- birds nest-->
