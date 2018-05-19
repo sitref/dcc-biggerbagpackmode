@@ -1370,7 +1370,7 @@ Mesh files no longer used:
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="DamageEntity" value="6"/>
-		<property name="DamageBlock" value="250"/>
+		<property name="DamageBlock" value="300"/>
 		<property name="Explosion.ParticleIndex" value="7"/>
 		<property name="Velocity" value="25"/>
 		<property name="FlyTime" value="0.70"/>
