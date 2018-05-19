@@ -2476,6 +2476,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapIron" count="40"/>
 </recipe>
 
+<recipe name="scrapPlastics" count="4" craft_area="chemistryStation">
+	<ingredient name="oil" count="2"/>
+</recipe>
+
+<recipe name="scrapPlastics" count="30" craft_area="chemistryStation">
+	<ingredient name="oilBarrel" count="1"/>
+</recipe>
+
+<recipe name="scrapPlastics" count="1" craft_area="chemistryStation">
+	<ingredient name="gasCan" count="1"/>
+</recipe>
+
+<recipe name="scrapPlastics" count="1" craft_area="chemistryStation">
+	<ingredient name="oilShale" count="1"/>
+</recipe>
+
 <recipe name="sectionalPlaidCouchSofaArm" count="1">
 	<ingredient name="cloth" count="5"/>
 	<ingredient name="nail" count="10"/>
